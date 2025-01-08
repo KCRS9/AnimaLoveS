@@ -1,0 +1,14 @@
+.bg-primary {
+    background-color: #d39b9b !important;
+}
+
+.bg-secundary {
+    background-color: #f5b5b5 !important;
+}
+
+.custom-select {
+    background: url('./img/banderas/es.png') no-repeat right 10px center;
+    background-color: white;
+    padding-right: 50px;
+    background-size: 20px 20px;
+}

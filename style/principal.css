@@ -6,6 +6,19 @@
     background-color: #f5b5b5 !important;
 }
 
+.bg-third {
+    /* background-color: #745e50 !important; */
+    background-color: #FFD09B !important;
+}
+
+.bg-fourth {
+    background-color: #fcd487 !important;
+}
+
+.bg-fifth {
+    background-color: #fdaf8a !important;
+}
+
 .custom-select {
     background: url('./img/banderas/es.png') no-repeat right 10px center;
     background-color: white;

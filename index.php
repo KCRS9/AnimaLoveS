@@ -17,7 +17,7 @@ $mostrar = $mysqli->query("SELECT id, nombre, imagen, edad, tamano, ubicacion FR
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/principal.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <title>AnimaLoveS</title>
 </head>
@@ -36,10 +36,10 @@ $mostrar = $mysqli->query("SELECT id, nombre, imagen, edad, tamano, ubicacion FR
 
         while (($resultado = $mostrar->fetch_assoc()) !== null) { ?>
 
-            <div class="bg-secundary p-1 rounded shadow-lg">
+            <div class="bg-secundary bg-third p-1 rounded shadow-lg">
                 <div class="card" style="width: 18rem;">
                     <img src="<?= $resultado['imagen'] ?>" class="card-img-top" alt="...">
-                    <div class="card-body bg-secundary">
+                    <div class="card-body bg-secundary bg-third">
                         <h5 class="card-title text-center text-white"><strong><?= $resultado['nombre'] ?></strong></h5>
                     </div>
                     <ul class="list-group list-group-flush">
@@ -47,8 +47,8 @@ $mostrar = $mysqli->query("SELECT id, nombre, imagen, edad, tamano, ubicacion FR
                         <li class="list-group-item text-center"><strong>Tamaño: </strong><?= $resultado['tamano'] ?></li>
                         <li class="list-group-item text-center"><strong><?= $resultado['ubicacion']?></strong></li>
                     </ul>
-                    <div class="card-body d-flex justify-content-center">
-                        <a href="info.php?id=<?= $resultado['id'] ?>&nombre=<?= $resultado['nombre'] ?>" class="text-decoration-none text-white p-2 bg-primary rounded">Mas información</a>
+                    <div class="card-body d-flex justify-content-center ">
+                        <a href="info.php?id=<?= $resultado['id'] ?>&nombre=<?= $resultado['nombre'] ?>" class="text-decoration-none text-white p-2 bg-primary bg-fourth rounded">Mas información</a>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 <html>
-<header class="pb-3 d-flex justify-content-between text-white flex-wrap">
+<header class="pb-3 d-flex justify-content-between text-white flex-wrap sticky-top">
 
     <div class="col-12 d-flex bg-primary flex-wrap">
         <div

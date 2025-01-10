@@ -37,7 +37,7 @@ try {
         protectora VARCHAR(50) NOT NULL,
         contacto VARCHAR(50) NOT NULL,
         ubicacion VARCHAR(50) NOT NULL,
-        descripcion VARCHAR(255) NOT NULL
+        descripcion VARCHAR(500) NOT NULL
     )";
     $conn->exec($sqlProtectora);
     echo "Tabla 'protectora' creada con éxito.<br>";
@@ -65,6 +65,10 @@ try {
         ('Bella', './img/animales/an17.webp', 'Perro', 2, 'Mestizo', 'Hembra', true, 'Grande', 'Protectora Ártica', '600123456', 'Madrid', 'Bella es una husky activa y juguetona. Busca una familia con experiencia en su raza.'),
         ('Nico', './img/animales/an18.webp', 'Gato', 7, 'Europeo', 'Macho', true, 'Pequeño', 'Protectora Felina', '643567890', 'Valencia', 'Nico es un gato adulto tranquilo y cariñoso. Ideal para cualquier hogar.'),
         ('Rocky', './img/animales/an19.webp', 'Perro', 5, 'Mestizo', 'Macho', true, 'Grande', 'Particular', '612098765', 'Bilbao', 'Rocky es un pitbull cariñoso y obediente. Busca un hogar responsable.'),
+        ('Simba', './img/animales/an8.webp', 'Gato', 2, 'Mestizo', 'Macho', true, 'Pequeño', 'Protectora Felina', '621345678', 'Cádiz', 'Simba es un gato bengalí curioso y lleno de energía. Le encanta explorar y jugar.'),
+        ('Ares', './img/animales/an2.webp', 'Perro', 9, 'Mestizo', 'Macho', true, 'Mediano', 'Protectora Esperanza', '646958099', 'Barcelona', 'Buenos días amigos, por favor, ayudarme a difundir a Ares, a ver si le encontramos un hogar entre todos. Ares fue traicionado por su antiguos dueños al ser abandonado en la perrera sin miramientos. Ares tiene 9 años recien cumplidos, pero es un perro muy fuerte y se le ve de maravilla. Ares tiene algo único: la capacidad de disfrutar con lo mínimo: estar fuera de la jaula 20 minutos para él es lo mejor del mundo.'),
+        ('Luna', './img/animales/an3.webp', 'Gato', 3, 'Siames', 'Hembra', true, 'Pequeño', 'Protectora Felina', '647123456', 'Madrid', 'Luna es una gata siamesa dulce y tranquila. Le encanta acurrucarse en el sofá y observar por la ventana. Perfecta para cualquier hogar.'),
+        ('Marco', './img/animales/an4.webp', 'Perro', 2, 'Mestizo', 'Macho', true, 'Grande', 'Particular', '612456789', 'Málaga', 'Thor es un labrador juguetón y lleno de energía. Busca una familia activa que disfrute de paseos largos y aventuras.'),
         ('Mila', './img/animales/an20.webp', 'Gato', 2, 'Mestizo', 'Hembra', true, 'Pequeño', 'Protectora Gaticos', '632145678', 'Sevilla', 'Mila es una gata siberiana curiosa y juguetona. Perfecta para familias activas.');";
     
     $conn->exec($insertProtectora);

@@ -8,15 +8,18 @@
 
 .bg-third {
     /* background-color: #745e50 !important; */
-    background-color: #FFD09B !important;
+    background-color: #907c70 !important;
+    /* background-color: #FFD09B !important; */
 }
 
 .bg-fourth {
     background-color: #fcd487 !important;
+    background-color: #e3c58e !important;
 }
 
 .bg-fifth {
-    background-color: #fdaf8a !important;
+    /* background-color: #fdaf8a !important; */
+    background-color: #745e50 !important;
 }
 
 .custom-select {
@@ -24,4 +27,12 @@
     background-color: white;
     padding-right: 50px;
     background-size: 20px 20px;
+}
+
+.bg-primary-border {
+    border: 2px solid #d39b9b;
+}
+
+.bg-third-border {
+    border: 3px solid #745e50 ;
 }

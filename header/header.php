@@ -11,8 +11,8 @@
         <div class="col-12 col-md-6 d-flex align-items-center justify-content-md-end  justify-content-between p-1">
             <nav class="d-flex ps-3">
                 <ul class="d-flex nav align-items-center m-auto gap-2">
-                    <li><a class="text-white text-decoration-none" href="">Inciar Sesión</a></li>
-                    <li><a class="text-white text-decoration-none" href="">Registrarse</a></li>
+                    <li><a class="text-white text-decoration-none" href="./iniciar.php">Inciar Sesión</a></li>
+                    <li><a class="text-white text-decoration-none" href="./registro.php">Registrarse</a></li>
                 </ul>
             </nav>
 
@@ -42,10 +42,10 @@
                 <div class="collapse navbar-collapse d-md-flex justify-content-center" id="navbarNav">
                     <ul class="navbar-nav me-auto me-md-0 mb-2 mb-lg-0 ">
                         <li class="nav-item"><a class="text-white nav-link active"
-                                href="#"><strong>Inicio</strong></a></li>
-                        <li class="nav-item"><a class="text-white nav-link" href="#">Protectoras</a></li>
-                        <li class="nav-item"><a class="text-white nav-link" href="#">Adopción</a></li>
-                        <li class="nav-item"><a class="text-white nav-link" href="#">Dar en Adopción</a></li>
+                                href="./index.php"><strong>Inicio</strong></a></li>
+                        <li class="nav-item"><a class="text-white nav-link" href="#"><strong>Protectoras</strong></a></li>
+                        <li class="nav-item"><a class="text-white nav-link" href="./daradopcion.php"><strong>Dar en Adopción</strong></a></li>
+                        <li class="nav-item"><a class="text-white nav-link" href="#"><strong>Donaciones</strong></a></li>
                     </ul>
                 </div>
             </div>

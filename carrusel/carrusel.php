@@ -1,5 +1,5 @@
 <html>
-<section id="carrusel" class=" bg-primary bg-fifth shadow-lg p-1">
+<section id="carrusel" class=" bg-primary bg-fifth bg-third shadow-lg p-1">
 
     <div id="carouselExampleAutoplaying" class="carousel slide mx-auto " data-bs-ride="carousel">
         <div class="carousel-inner">

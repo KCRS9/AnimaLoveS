@@ -22,17 +22,34 @@
     background-color: #745e50 !important;
 }
 
-.custom-select {
+/* #language-select {
     background: url('./img/banderas/es.png') no-repeat right 10px center;
     background-color: white;
     padding-right: 50px;
     background-size: 20px 20px;
+} */
+
+#language-select {
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: right 10px center; 
+    padding-right: 40px; 
 }
+
 
 .bg-primary-border {
     border: 2px solid #d39b9b;
 }
 
 .bg-third-border {
-    border: 3px solid #745e50 ;
+    border: 3px solid #745e50;
+}
+
+.btn-gmail {
+    background-color: #ea4335 !important;
+    color: white !important;
+}
+
+.btn-gmail:hover {
+    background-color: #d73225 !important;
 }

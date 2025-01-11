@@ -1,4 +1,3 @@
-<html>
 <header class="pb-3 d-flex justify-content-between text-white flex-wrap sticky-top">
 
     <div class="col-12 d-flex bg-primary flex-wrap">
@@ -43,8 +42,8 @@
                     <ul class="navbar-nav me-auto me-md-0 mb-2 mb-lg-0 ">
                         <li class="nav-item"><a class="text-white nav-link active"
                                 href="./index.php"><strong>Inicio</strong></a></li>
-                        <li class="nav-item"><a class="text-white nav-link" href="#"><strong>Protectoras</strong></a></li>
-                        <li class="nav-item"><a class="text-white nav-link" href="./daradopcion.php"><strong>Dar en Adopción</strong></a></li>
+                        <li class="nav-item"><a class="text-white nav-link" href="./protectoras.php"><strong>Protectoras</strong></a></li>
+                        <li class="nav-item"><a class="text-white nav-link" href="#"><strong>Dar en Adopción</strong></a></li>
                         <li class="nav-item"><a class="text-white nav-link" href="#"><strong>Donaciones</strong></a></li>
                     </ul>
                 </div>
@@ -62,5 +61,3 @@
     </div>
 
 </header>
-
-</html>

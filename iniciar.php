@@ -3,12 +3,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./style/principal.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<?php include('./head/head.php'); ?>
     <title>AnimaLoveS - Iniciar Sesion</title>
 </head>
 
@@ -40,20 +35,7 @@
     <?php
     include('./footer/footer.php');
     ?>
-    <script>
-        const select = document.getElementById('language-select');
-
-        select.addEventListener('change', (event) => {
-            const selectedOption = event.target.options[event.target.selectedIndex];
-            const image = selectedOption.getAttribute('data-image');
-            select.style.backgroundImage = `url(${image})`;
-        });
-
-
-        setInterval(() => {
-            window.location.reload();
-        }, 10000);
-    </script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

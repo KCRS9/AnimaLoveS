@@ -2,21 +2,18 @@
 
 <?php
 
-
-
 ?>
 
 <html lang="es">
 
 <head>
     <?php include('./head/head.php'); ?>
-    <title>AnimaLoveS - Dar en Adopcion</title>
+    <title>AnimaLoveS - Protectoras</title>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
         #map {
-            height: 400px;
-            border-radius: 8px;
+            
         }
 
     </style>
@@ -104,9 +101,9 @@
             </div>
 
             <!-- Map -->
-            <div class="mt-5">
+            <div class="mt-5" >
                 <h3 class="text-center mb-4">Ubicación de las Veterinarias</h3>
-                <div id="map" class="bg-third-border"></div>
+                <div id="map" class="bg-third-border rounded" style="height: 400px;"></div>
             </div>
         </main>
 

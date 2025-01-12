@@ -43,8 +43,8 @@
                         <li class="nav-item"><a class="text-white nav-link active"
                                 href="./index.php"><strong>Inicio</strong></a></li>
                         <li class="nav-item"><a class="text-white nav-link" href="./protectoras.php"><strong>Protectoras</strong></a></li>
-                        <li class="nav-item"><a class="text-white nav-link" href="#"><strong>Dar en Adopción</strong></a></li>
-                        <li class="nav-item"><a class="text-white nav-link" href="donaciones.php"><strong>Donaciones</strong></a></li>
+                        <li class="nav-item"><a class="text-white nav-link" href="./daradopcion.php"><strong>Dar en Adopción</strong></a></li>
+                        <li class="nav-item"><a class="text-white nav-link" href="./donaciones.php"><strong>Donaciones</strong></a></li>
                     </ul>
                 </div>
             </div>

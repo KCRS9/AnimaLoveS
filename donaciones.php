@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<p?php
-    // Si necesitas incluir algo de PHP, puedes hacerlo aquí
-    ?>
+<html lang="es">
 
-    <html lang="es">
+<head>
+    <!-- Incluye los links de Bootstrap de js, css e iconos -->
+    <?php include('./head/head.php'); ?>
+    <title>AnimaLoveS - Donaciones</title>
+    <style>
+        /*Estilos para las tarjetas de la seccion de donaciones*/
 
-    <head>
-        <!-- Incluye los links de Bootstrap de js, css e iconos -->
-        <?php include('./head/head.php'); ?>
-        <title>AnimaLoveS - Donaciones</title>
-    </head>
+        .card:hover {
+            background-color: #f5b5b5 !important;
+            transform: scale(1.02);
+            transition: all 0.3s ease-in-out;
+        }
 
-    <body>
-        <?php include('./header/header.php'); ?>
+        .card-body:hover {
+            background-color: white !important;
+        }
+    </style>
+</head>
 
-        <main class="container px-3">
-            <?php include('./carrusel/carrusel.php'); ?>
+<body>
+    <?php include('./header/header.php'); ?>
+
+    <main class="container px-3">
+        <?php include('./carrusel/carrusel.php'); ?>
+
+        <section>
 
             <!-- Sección de Donaciones -->
             <div class="row text-center my-5">
@@ -27,7 +38,7 @@
                             </div>
                             <h5 class="card-title">Realiza Voluntariado</h5>
                             <p class="card-text">Ayuda a los animales de manera directa.<br>Haz voluntariado en uno de nuestros centros de adopción.</p>
-                            <button class="text-decoration-none text-white p-2 bg-primary rounded mt-1" data-bs-toggle="modal" data-bs-target="#voluntariadoModal">Más Información</button>
+                            <button class="btn text-white p-2 bg-primary rounded mt-1" data-bs-toggle="modal" data-bs-target="#voluntariadoModal">Más Información</button>
                         </div>
                     </div>
                 </div>
@@ -40,7 +51,7 @@
                             </div>
                             <h5 class="card-title">Donar Comida</h5>
                             <p class="card-text">Ayúdanos a alimentarlos.<br>Puedes donar alimentos o articulos utiles para los animales en nuestros centros.</p>
-                            <button class="text-decoration-none text-white p-2 bg-primary rounded mt-1" data-bs-toggle="modal" data-bs-target="#donarComidaModal">Más Información</button>
+                            <button class="btn text-white p-2 bg-primary rounded mt-1" data-bs-toggle="modal" data-bs-target="#donarComidaModal">Más Información</button>
                         </div>
                     </div>
                 </div>
@@ -53,7 +64,7 @@
                             </div>
                             <h5 class="card-title">Donar Dinero</h5>
                             <p class="card-text">Realiza una donación económica <br> Puedes apoyar nuestras actividades y el bienestar de los animales.</p>
-                            <button class="text-decoration-none text-white p-2 bg-primary rounded mt-1" data-bs-toggle="modal" data-bs-target="#donarDineroModal">Más Información</button>
+                            <button class="btn text-white p-2 bg-primary rounded mt-1" data-bs-toggle="modal" data-bs-target="#donarDineroModal">Más Información</button>
                         </div>
                     </div>
                 </div>
@@ -228,7 +239,9 @@
                     </div>
                 </div>
             </div>
+        </section>
 
+        <section>
             <div class="bg-third-border rounded p-1">
                 <div class="bg-third-border p-5 bg-light">
                     <h2 class="text-center m-4">Sobre Nosotros</h2>
@@ -273,13 +286,14 @@
                 </div>
 
             </div>
-
-        </main>
-
-        <?php include('./footer/footer.php'); ?>
-        <!-- <script src="./js/script.js"></script> -->
+        </section>
 
 
-    </body>
+    </main>
 
-    </html>
+    <?php include('./footer/footer.php'); ?>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

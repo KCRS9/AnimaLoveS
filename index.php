@@ -28,7 +28,7 @@ $mostrar = $mysqli->query("SELECT id, nombre, imagen, edad, tamano, ubicacion FR
 
         while (($resultado = $mostrar->fetch_assoc()) !== null) { ?>
 
-            <div class="bg-third-border p-1 rounded shadow-lg">
+            <div class="card-border bg-third-border p-1 rounded shadow-lg">
                 <div class="card" style="width: 18rem;">
                     <img src="<?= $resultado['imagen'] ?>" class="card-img-top" alt="...">
                     <div class="card-body bg-secundary bg-third">
@@ -51,7 +51,7 @@ $mostrar = $mysqli->query("SELECT id, nombre, imagen, edad, tamano, ubicacion FR
                         </li>
                     </ul>
                     <div class="card-body d-flex justify-content-center ">
-                        <a href="info.php?id=<?= $resultado['id'] ?>&nombre=<?= $resultado['nombre'] ?>" class="text-decoration-none text-white p-2 bg-primary rounded"><strong>Mas información</strong></a>
+                        <a href="info.php?id=<?= $resultado['id'] ?>&nombre=<?= $resultado['nombre'] ?>" class="btn text-decoration-none text-white p-2 bg-primary rounded"><strong>Mas información</strong></a>
                     </div>
                 </div>
             </div>

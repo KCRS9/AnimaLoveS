@@ -1,3 +1,11 @@
+/*Fuente del documento*/
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/*Paleta de colores*/
+
 .bg-primary {
     background-color: #d39b9b !important;
 }
@@ -12,15 +20,24 @@
     /* background-color: #FFD09B !important; */
 }
 
-.bg-fourth {
+/*Estilo de los bordes*/
+
+.bg-primary-border {
+    border: 2px solid #d39b9b;
+}
+
+.bg-third-border {
+    border: 3px solid #745e50;
+}
+
+/* .bg-fourth {
     background-color: #fcd487 !important;
     background-color: #e3c58e !important;
 }
 
 .bg-fifth {
-    /* background-color: #fdaf8a !important; */
     background-color: #745e50 !important;
-}
+} */
 
 /* #language-select {
     background: url('./img/banderas/es.png') no-repeat right 10px center;
@@ -29,20 +46,20 @@
     background-size: 20px 20px;
 } */
 
+/*Estilos para el select*/
+
 #language-select {
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    background-position: right 10px center; 
-    padding-right: 40px; 
+    background-position: right 10px center;
+    padding-right: 40px;
 }
 
-
-.bg-primary-border {
-    border: 2px solid #d39b9b;
-}
-
-.bg-third-border {
-    border: 3px solid #745e50;
+/*Animacion de botones*/
+.btn:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+    background-color: #f5b5b5 !important;
 }
 
 .btn-gmail {
@@ -53,3 +70,17 @@
 .btn-gmail:hover {
     background-color: #d73225 !important;
 }
+
+.btn-dark:hover{
+    /*Ponemos ttransparencia*/
+    background-color: black !important;
+    opacity: 0.7 !important;
+}
+
+/*Animacion de las tarjetas del index*/
+.card-border:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    background: #f5b5b5;
+}
+
